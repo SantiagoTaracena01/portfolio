@@ -1,0 +1,75 @@
+h1 {
+  color: var(--dark-blue);
+  letter-spacing: 0.1em;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+p {
+  color: var(--dark-blue);
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.typewriter-animation-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.initial-header {
+  margin-bottom: 0.5em;
+}
+
+.rendering-element {
+  animation-name: rendering;
+  animation-duration: 1.5s;
+}
+
+@keyframes rendering {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+}
+
+.experience {
+  width: 100%;
+  height: 100vh;
+}
+
+.projects {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+}

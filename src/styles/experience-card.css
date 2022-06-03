@@ -1,0 +1,27 @@
+.experience-card {
+  width: 25%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px var(--light-gray);
+}
+
+.experience-card > * {
+  margin: 25px;
+}
+
+.experience-card > .experience-logo {
+  height: 70%;
+}
+
+.experience-card > span {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+}
+
+.experience-card > .verified-logo {
+  height: 40%;
+}
