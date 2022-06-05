@@ -17,6 +17,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
   position: absolute;
 }
@@ -41,6 +42,7 @@ p {
 
 .container {
   width: 100%;
+  min-width: 1000px;
   height: auto;
   text-align: center;
   display: flex;
@@ -51,26 +53,31 @@ p {
 
 .home {
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
 }
 
 .about {
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
 }
 
 .experience {
   width: 100%;
+  min-width: 1250px;
   height: 100vh;
 }
 
 .projects {
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
 }
 
 .contact {
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
 }
 

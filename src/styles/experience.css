@@ -1,5 +1,6 @@
 .experience {
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,6 +10,7 @@
 
 .experience-container {
   width: 100%;
+  min-width: 1000px;
   height: 20%;
   display: flex;
   justify-content: space-around;

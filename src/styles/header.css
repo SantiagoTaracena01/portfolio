@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  min-width: 1000px;
   height: 10%;
   min-height: 75px;
   text-align: center;
