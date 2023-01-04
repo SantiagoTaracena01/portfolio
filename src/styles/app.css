@@ -20,6 +20,7 @@ p {
   min-width: 1000px;
   height: 100vh;
   position: absolute;
+  user-select: none;
 }
 
 .initial-header {
